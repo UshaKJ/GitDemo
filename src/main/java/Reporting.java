@@ -30,6 +30,7 @@ public class Reporting {
 	public void testFail() {
 		test = reports.createTest("Fail test case");
 		System.out.println("failed intentionally");
+		System.out.println("Just to see github actions");
 		test.pass("failed");
 	}
 
