@@ -31,6 +31,7 @@ public class Reporting {
 		test = reports.createTest("Fail test case");
 		System.out.println("failed intentionally");
 		System.out.println("Just to see github actions");
+		System.out.println("Just to see github actions finally");
 		test.pass("failed");
 	}
 
